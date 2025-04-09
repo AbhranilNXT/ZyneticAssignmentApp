@@ -48,25 +48,14 @@ A modern product catalog Android app built using **Jetpack Compose**, **Ktor**, 
 tech.abhranilnxt.zyneticassignmentapp/
 ├── core/
 │   ├── data.networking/
-│   │   ├── constructUrl.kt
-│   │   ├── HttpClientFactory.kt
-│   │   ├── responseToResult.kt
-│   │   └── safeCall.kt
 │   ├── domain.util/
-│   │   ├── Error.kt
-│   │   ├── NetworkError.kt
-│   │   └── Result.kt
 │   └── presentation.util/
-│       └── NetworkErrorToString.kt
 ├── di/
-│   └── AppModule.kt
 ├── products/
 │   ├── data/
 │   │   ├── mappers/
 │   │   └── networking/
 │   ├── domain/
-│   │   ├── Products.kt
-│   │   └── ProductsDataSource.kt
 │   └── presentation/
 │       ├── core/
 │       ├── navigation/
